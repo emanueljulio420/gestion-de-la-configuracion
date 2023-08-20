@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({extended:'true'}))
 app.use('/api/operacion', rutaoperacion)
 
 //Configurar server basico
-
 app.listen(5000, function(){
     console.log('El servidor esta corriendo correctamente')
 })

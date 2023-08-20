@@ -2,7 +2,7 @@ import Boton from "../componente/Boton";
 import Pantalla from "../componente/Pantalla";
 import BotonBorrar from "../componente/BotonBorrar";
 import "../Estilos/App.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { evaluate } from "mathjs";
 import ReactCardFlip from "react-card-flip";
 import axios from "axios";
@@ -18,7 +18,6 @@ function App() {
   };
   const operaciones_registradas = async (setRegistro) => {
     const { data } = await axios.get("/api/operacion/operaciones_registradas");
-    console.log(data);
     setRegistro(data);
   };
 
@@ -43,26 +42,31 @@ function App() {
     if (input) {
       resultadoFinal = evaluate(input);
       setInput(resultadoFinal.toString())
-      const hoy = new Date().toLocaleDateString();
-      let newOperacion = {
-        operacion: input,
-        resultado: resultadoFinal,
-        fecha: hoy,
-      };
-      
-
-      axios
-        .post("/api/operacion/registrar", newOperacion)
-        .then((res) => {
-          if (res.data === "Operacion registrada correctamente") {
-            alert(res.data);
-          } else if (res.data === "Error") {
-            alert(res.data);
-          }
-        })
-        .then((err) => {
-          console.log(err);
-        });
+      console.log(input)
+      console.log(resultadoFinal)
+      resultadoFinal = resultadoFinal.toString()
+      if (resultadoFinal !== input){
+        const hoy = new Date().toLocaleDateString();
+        let newOperacion = {
+          operacion: input,
+          resultado: resultadoFinal,
+          fecha: hoy,
+        };
+        axios
+          .post("/api/operacion/registrar", newOperacion)
+          .then((res) => {
+            if (res.data === "Operacion registrada correctamente") {
+              alert(res.data);
+            } else if (res.data === "Error") {
+              alert(res.data);
+            }
+          })
+          .then((err) => {
+            console.log(err);
+          });
+      }else{
+        alert("Primero borre la operacion ya realizada")
+      }
     } else {
       alert("Por favor ingrese valores para realizar los cálculos.");
     }
@@ -109,11 +113,7 @@ function App() {
           </button>
         </div>
         <div className="contenedor-calculadora">
-          <button className="cambiar" onClick={() => setFlip(!flip)}>
-            {" "}
-            Volver{" "}
-          </button>
-          <table class="table table-striped">
+          <table className="tabla">
             <thead>
               <tr>
                 <th>Operacion</th>
@@ -131,6 +131,10 @@ function App() {
               ))}
             </tbody>
           </table>
+          <button className="cambiar" onClick={() => setFlip(!flip)}>
+            {" "}
+            Volver{" "}
+          </button>
         </div>
       </ReactCardFlip>
     </div>
