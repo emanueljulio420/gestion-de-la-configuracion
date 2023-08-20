@@ -113,6 +113,11 @@ function App() {
           </button>
         </div>
         <div className="contenedor-calculadora">
+          <div className="titulo">
+            <h1>
+              Historial
+            </h1>
+          </div>
           <table className="tabla">
             <thead>
               <tr>

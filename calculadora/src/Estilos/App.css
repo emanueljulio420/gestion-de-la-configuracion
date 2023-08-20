@@ -44,8 +44,10 @@
   border-radius: 5px;
   margin: 4px;
   cursor: pointer;
+  margin-top: 15px;
 }
 .tabla{
+  margin-top: 0px 10px;
   width: 100%;
   max-height: auto;
   font-size: 100%;
