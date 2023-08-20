@@ -4,18 +4,27 @@ const mongoose= require('mongoose')
 const eschema= mongoose.Schema
 
 
+
 /// Esquema de base de datos 
 
 const eschemaoperacion= new eschema({
-    operacion: {type: String, requiere: true},
-    resultdo:{type:String, requiere: true},
-    fecha:{type: String, requiere:true },
+    operacion: { type: String, required: true },
+    resultado: { type: String, required: true },
+    fecha: { type: String, required: true }
 
 });
 
+/* const operacionSchema = new mongoose.Schema({
+    operacion: { type: String, required: true },
+    resultado: { type: String, required: true },
+    fecha: { type: String, required: true }
+  }); */
 
 /// Modelo de base de datos con operacion y esquema de la base de datos 'eschemaoperacion'
-const ModeloOperacion = mongoose.model('operaciones', eschemaoperacion)
+const Modelo_Operacion = mongoose.model('operaciones', eschemaoperacion)
+
+
+
 
 module.exports= router
 
@@ -28,30 +37,37 @@ router.get('/ejemplo', (req, res)=>{
 /// Peticion post para registrar una nueva operacion
 router.post('/registrar', (req, res )=>{
 
-    const {operacion,resultdo,fecha} = req.body;
+    const {operacion,resultado,fecha} = req.body;
 
-    const nuevaoperacion=ModeloUsuario({
+    const nuevaoperacion=Modelo_Operacion({
         operacion: operacion,
-        resultado: resultdo,
+        resultado: resultado,
         fecha: fecha
 
     })
-    nuevaoperacion.save(function(err){
+     /* nuevaoperacion.save(function(err){
         if (!err){
             res.send('Operacion registrada correctamente')
 
         }else{
             res.send(err)
+            alert("Hola")
         }
+    }) */
+    nuevaoperacion.save()
+    .then(result => {
+      console.log('Operación guardada:', result);
     })
+    .catch(error => {
+      console.error('Error al guardar la operación:', error);
+    });
 
 } )
 
 
-
 router.get('/operaciones_registradas', async (req, res) => {
     try {
-      const users = await ModeloOperacion.find();
+      const users = await Modelo_Operacion.find();
       res.status(200).send(users);
     } catch (error) {
       console.error('Error al obtener las operaciones:', error);
