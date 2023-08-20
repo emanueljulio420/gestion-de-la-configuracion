@@ -1,0 +1,61 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: rgb(45, 42, 42);
+    color: white;
+    border-radius: 20px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .boton-contenedor:hover {
+    background-color: grey;
+  }
+  
+  .operador {
+    background-color: grey;
+  }
+  
+  .operador:hover {
+    background-color: rgb(45, 42, 42);
+  }
+
+  .boton-borrar {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    background-color: black;
+    margin: 8px 0px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;      
+  }
+  
+  .boton-borrar:hover {
+    background-color: red;
+  }
+
+  .input {
+    height: 75px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid #888;
+  }
