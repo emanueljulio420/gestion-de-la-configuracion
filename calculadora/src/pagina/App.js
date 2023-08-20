@@ -42,13 +42,14 @@ function App() {
   const calcularResultado = () => {
     if (input) {
       resultadoFinal = evaluate(input);
-      setInput(resultadoFinal);
+      setInput(resultadoFinal.toString())
       const hoy = new Date().toLocaleDateString();
       let newOperacion = {
         operacion: input,
         resultado: resultadoFinal,
         fecha: hoy,
       };
+      
 
       axios
         .post("/api/operacion/registrar", newOperacion)
