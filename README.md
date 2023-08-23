@@ -34,7 +34,7 @@ En esta parte comenzaremos con la instalación de las dependencias necesarias de
 
 6.	Entramos en la carpeta en donde se encuentra el backend (parte logica del proyecto) con el comando “cd backend”
 7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del backend
-8.	Inicializamos el backend con “node server.js” , y tecleamos (ctrl+s) para guardar y verificar que el backend esta corriendo de forma correcta
+8.	Inicializamos el backend con “node server.js” , y tecleamos ([Ctrl]+[S]) para guardar y verificar que el backend esta corriendo de forma correcta
 9.	Abrimos otra ventana del símbolo del sistema y nos ubicamos dentro del repositorio clonado( para esto ejecutaremos [Windows] + [R]) teclea “cmd” en este cuadro y pulsa “OK” luego ejecutaremos cd Desktop o cd Escritorio depende del idioma en el que esta su equipo, luego cd "nombre de la carpeta que creaste", y por ultimo cd gestion-de-la-configuracion )
 10.	Ingresamos el comando “cd calculadora” para poder ingresar en el frontend del proyecto(Parte grafica del proyecto)
 11.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
