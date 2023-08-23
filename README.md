@@ -9,7 +9,7 @@ Para la ejecución del proyecto en una maquina local se necesita una serie de pa
 Antes de empezar con la instalación del proyecto en cualquier equipo es necesario tener algunos requisitos previos como:
 -	Node.js ([ enlace de descarga de node.js ](https://nodejs.org/en/download))
 -	Git ([ enlace de descarga de git ](https://git-scm.com/downloads))
--	MongoDB Compass ([ enlace de descarga de MongoDB compass ](https://www.mongodb.com/try/download/community)), después de la instalación inicializar la aplicación y crear una nueva conexión y verificar que la url esta sea esta “mongodb://localhost:27017”.
+-	MongoDB Compass ([ enlace de descarga de MongoDB Community Server ](https://www.mongodb.com/try/download/community)), después de la instalación inicializar la aplicación y crear una nueva conexión y verificar que la url esta sea esta “mongodb://localhost:27017”.
 
 Ya con las aplicaciones anteriormente instaladas comenzamos con los pasos para poder instalar el proyecto en cualquier maquina
 
