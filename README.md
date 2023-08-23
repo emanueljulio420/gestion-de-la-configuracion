@@ -16,7 +16,7 @@ Ya con las aplicaciones anteriormente instaladas comenzamos con los pasos para p
 >*Nota:* Cualquier instrucción o comando ingresada en el símbolo del sistema si no sabes que es simbolo de sistema puedes tambien (Ejecutar” ([Windows] + [R]) permite abrir cualquier programa de Windows mediante la introducción de su nombre. Teclea “cmd” en este cuadro y pulsa “OK” para abrir cmd.exe) cabe recalcar que todas la operaciones deben de ser ejecutadas oprimiendo ENTER al terminar la instrucción o comando. 
 
 1.	Abrimos el símbolo del sistema
-2.	Nos ubicamos en donde deseamos que quede guardado el proyecto("Para esto puedes crear una carpeta nueva en el escritorio con el nombre que quieras y luego con el comando cd Desktop o cd Escritorio depende en que idioma esta tu pc, y luego de ejecutar esta instruccion ejecutamos cd "Nombre de la carpeta")
+2.	Nos ubicamos en donde deseamos que quede guardado el proyecto("Para esto puedes crear una carpeta nueva en el escritorio con el nombre que quieras y luego con el comando cd Desktop o cd Escritorioesto depende del idioma en el que esta tu maquina, luego de ejecutar esta instruccion ejecutamos cd "Nombre de la carpeta creada en el paso anterior")
 3.	Clonamos el repositorio de github con el comando
    ~~~
 git clone https://github.com/emanueljulio420/gestion-de-la-configuracion.git
@@ -32,10 +32,10 @@ git checkout emanuel_julio_lemos-sebastian_gonzalez_trujillo
 
 En esta parte comenzaremos con la instalación de las dependencias necesarias del proyecto al igual que la inicialización del frontend y el backend
 
-6.	Entramos en la carpeta en donde se encuentra el backend (parte logica del proyecto) con “cd backend”
+6.	Entramos en la carpeta en donde se encuentra el backend (parte logica del proyecto) con el comando “cd backend”
 7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del backend
 8.	Inicializamos el backend con “node server.js” , y tecleamos (ctrl+s) para guardar y verificar que el backend esta corriendo de forma correcta
-9.	Abrimos otra ventana del símbolo del sistema y nos ubicamos dentro del repositorio clonado( para esto ejecutaremos cd Desktop o cd Escritorio depende del idioma en el que esta su equipo, cd "nombre de la carpeta que creaste", luego cd gestion-de-la-configuracion )
+9.	Abrimos otra ventana del símbolo del sistema y nos ubicamos dentro del repositorio clonado( para esto ejecutaremos [Windows] + [R]) teclea “cmd” en este cuadro y pulsa “OK” luego ejecutaremos cd Desktop o cd Escritorio depende del idioma en el que esta su equipo, luego cd "nombre de la carpeta que creaste", y por ultimo cd gestion-de-la-configuracion )
 10.	Ingresamos el comando “cd calculadora” para poder ingresar en el frontend del proyecto(Parte grafica del proyecto)
 11.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
 12.	Inicializamos el frontend con “npm start”.
