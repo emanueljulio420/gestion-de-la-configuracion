@@ -3,7 +3,7 @@ Es un proyecto sencillo de una calculadora en una aplicación web en la cual se 
 
 ## Creacion del artefacto
 
-Para la ejecución del proyecto en una maquina local se necesita una serie de pasos para la instalación y ejecución.
+Para la creación del artefacto en una maquina local se necesita una serie de pasos para la instalación y ejecución.
 
 ### Requisitos previos
 
@@ -31,7 +31,7 @@ cd gestion-de-la-configuracion
 git checkout emanuel_julio_lemos-sebastian_gonzalez_trujillo
 ~~~
 
-En esta parte comenzaremos con la instalación de las dependencias necesarias del proyecto al igual que la inicialización del frontend y el backend
+En esta parte comenzaremos con la instalación de las dependencias necesarias del proyecto al igual que la inicialización del frontend
 
 6.	Ingresamos el comando “cd calculadora” para poder ingresar en el frontend del proyecto(Parte grafica del proyecto)
 7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
