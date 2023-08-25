@@ -39,7 +39,7 @@ En esta parte comenzaremos con la instalación de las dependencias necesarias de
 7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
 8. Creamos el artefacto con el comando “npm run build”
 9. Luego instalamos unas dependencias para el despliegue local del frontend con “npm install –g serve”
-10. Desplegamos el servidor local para poder visualizar el frontend con “server –s build”
+10. Desplegamos el servidor local para poder visualizar el frontend con “serve –s build”
 
 
 Con la finalización del último paso el proyecto se desplegará en un servidor local el cual se puede ingresar desde cualquier buscador, con esta url http://localhost:3000
