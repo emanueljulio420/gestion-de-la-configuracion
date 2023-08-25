@@ -1,6 +1,7 @@
 # Calculadora
-El un proyecto sencillo de una calculadora en una aplicación web en la cual se pueden realizar operaciones básicas como la suma, resta, multiplicación y división al igual de poder visualizar todas las operaciones realizadas anteriormente junto con su resultado y fecha de realización.
-## Ejecución en una maquina local
+Es un proyecto sencillo de una calculadora en una aplicación web en la cual se pueden realizar operaciones básicas como la suma, resta, multiplicación y división al igual de poder visualizar todas las operaciones realizadas anteriormente junto con su resultado y fecha de realización.
+
+## Creacion del artefacto
 
 Para la ejecución del proyecto en una maquina local se necesita una serie de pasos para la instalación y ejecución.
 
@@ -32,13 +33,12 @@ git checkout emanuel_julio_lemos-sebastian_gonzalez_trujillo
 
 En esta parte comenzaremos con la instalación de las dependencias necesarias del proyecto al igual que la inicialización del frontend y el backend
 
-6.	Entramos en la carpeta en donde se encuentra el backend (parte logica del proyecto) con el comando “cd backend”
-7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del backend
-8.	Inicializamos el backend con “node server.js” , y tecleamos ([Ctrl]+[S]) para guardar y verificar que el backend esta corriendo de forma correcta
-9.	Abrimos otra ventana del símbolo del sistema y nos ubicamos dentro del repositorio clonado( para esto ejecutaremos [Windows] + [R]) teclea “cmd” en este cuadro y pulsa “OK” luego ejecutaremos cd Desktop o cd Escritorio depende del idioma en el que esta su equipo, luego cd "nombre de la carpeta que creaste", y por ultimo cd gestion-de-la-configuracion )
-10.	Ingresamos el comando “cd calculadora” para poder ingresar en el frontend del proyecto(Parte grafica del proyecto)
-11.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
-12.	Inicializamos el frontend con “npm start”.
+6.	Ingresamos el comando “cd calculadora” para poder ingresar en el frontend del proyecto(Parte grafica del proyecto)
+7.	Utilizamos el comando “npm install” para instalar las dependencias necesarias del frontend
+8. Creamos el artefacto con el comando “npm run build”
+9. Luego instalamos unas dependencias para el despliegue local del frontend con “npm install –g serve”
+10. Desplegamos el servidor local para poder visualizar el frontend con “server –s build”
+
 
 Con la finalización del último paso el proyecto se desplegará en un servidor local el cual se puede ingresar desde cualquier buscador, con esta url http://localhost:3000
 
