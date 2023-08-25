@@ -3,6 +3,8 @@ Es un proyecto sencillo de una calculadora en una aplicación web en la cual se 
 
 ## Creacion del artefacto
 
+>*Nota:* Esta creación de artefacto solo funciona en sistemas operativos Windows 11 y 10
+
 Para la creación del artefacto en una maquina local se necesita una serie de pasos para la instalación y ejecución.
 
 ### Requisitos previos
@@ -14,7 +16,7 @@ Antes de empezar con la instalación del proyecto en cualquier equipo es necesar
 
 Ya con las aplicaciones anteriormente instaladas comenzamos con los pasos para poder instalar el proyecto en cualquier maquina
 
->*Nota:* Cualquier instrucción o comando ingresada en el símbolo del sistema si no sabes que es símbolo de sistema puedes también (Ejecutar” ([Windows] + [R]) permite abrir cualquier programa de Windows mediante la introducción de su nombre. Teclea “cmd” en este cuadro y pulsa “OK” para abrir cmd.exe) cabe recalcar que todas la operaciones deben de ser ejecutadas oprimiendo ENTER al terminar la instrucción o comando. 
+>*Nota:* Cualquier instrucción o comando ingresada en el símbolo del sistema si no sabes que es símbolo de sistema puedes también (Ejecutar” ([Windows] + [R]) permite abrir cualquier programa de Windows mediante la introducción de su nombre. Teclea “cmd” en este cuadro y pulsa “OK” para abrir cmd.exe) cabe recalcar que todas las operaciones deben de ser ejecutadas oprimiendo ENTER al terminar la instrucción o comando. 
 
 1.	Abrimos el símbolo del sistema
 2.	Nos ubicamos en donde deseamos que quede guardado el proyecto("Para esto puedes crear una carpeta nueva en el escritorio con el nombre que quieras y luego con el comando cd Desktop o cd Escritorio este comando depende del idioma en el que esta tu maquina, luego de ejecutar esta instrucción ejecutamos cd "Nombre de la carpeta creada en el paso anterior")
