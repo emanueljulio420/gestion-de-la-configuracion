@@ -14,10 +14,10 @@ Antes de empezar con la instalación del proyecto en cualquier equipo es necesar
 
 Ya con las aplicaciones anteriormente instaladas comenzamos con los pasos para poder instalar el proyecto en cualquier maquina
 
->*Nota:* Cualquier instrucción o comando ingresada en el símbolo del sistema si no sabes que es simbolo de sistema puedes tambien (Ejecutar” ([Windows] + [R]) permite abrir cualquier programa de Windows mediante la introducción de su nombre. Teclea “cmd” en este cuadro y pulsa “OK” para abrir cmd.exe) cabe recalcar que todas la operaciones deben de ser ejecutadas oprimiendo ENTER al terminar la instrucción o comando. 
+>*Nota:* Cualquier instrucción o comando ingresada en el símbolo del sistema si no sabes que es símbolo de sistema puedes también (Ejecutar” ([Windows] + [R]) permite abrir cualquier programa de Windows mediante la introducción de su nombre. Teclea “cmd” en este cuadro y pulsa “OK” para abrir cmd.exe) cabe recalcar que todas la operaciones deben de ser ejecutadas oprimiendo ENTER al terminar la instrucción o comando. 
 
 1.	Abrimos el símbolo del sistema
-2.	Nos ubicamos en donde deseamos que quede guardado el proyecto("Para esto puedes crear una carpeta nueva en el escritorio con el nombre que quieras y luego con el comando cd Desktop o cd Escritorio este comando depende del idioma en el que esta tu maquina, luego de ejecutar esta instruccion ejecutamos cd "Nombre de la carpeta creada en el paso anterior")
+2.	Nos ubicamos en donde deseamos que quede guardado el proyecto("Para esto puedes crear una carpeta nueva en el escritorio con el nombre que quieras y luego con el comando cd Desktop o cd Escritorio este comando depende del idioma en el que esta tu maquina, luego de ejecutar esta instrucción ejecutamos cd "Nombre de la carpeta creada en el paso anterior")
 3.	Clonamos el repositorio de github con el comando
    ~~~
 git clone https://github.com/emanueljulio420/gestion-de-la-configuracion.git
@@ -26,7 +26,7 @@ git clone https://github.com/emanueljulio420/gestion-de-la-configuracion.git
    ~~~
 cd gestion-de-la-configuracion
 ~~~
-7.	Pasamos a la rama correspondiente al codigo con la instruccion
+7.	Pasamos a la rama correspondiente al código con la instrucción
    ~~~
 git checkout emanuel_julio_lemos-sebastian_gonzalez_trujillo
 ~~~
