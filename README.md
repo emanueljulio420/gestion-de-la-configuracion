@@ -42,3 +42,4 @@ En esta parte comenzaremos con la instalación de las dependencias necesarias de
 
 Con la finalización del último paso el proyecto se desplegará en un servidor local el cual se puede ingresar desde cualquier buscador, con esta url http://localhost:3000
 
+### Mas infomracion sobre el proyecto ([ Link ](Calculadora · emanueljulio420/gestion-de-la-configuracion Wiki (github.com)))
